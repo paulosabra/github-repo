@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:githubrepo/constants/theme.dart';
+import 'package:githubrepo/screens/search_screen.dart';
 
 void main() {
   runApp(const GitHubRepoApp());
@@ -15,16 +16,7 @@ class GitHubRepoApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: themeLight,
       darkTheme: themeDark,
-      home: const EmptyPage(),
+      home: const SearchScreen(),
     );
-  }
-}
-
-class EmptyPage extends StatelessWidget {
-  const EmptyPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
   }
 }
