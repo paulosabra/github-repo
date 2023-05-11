@@ -6,8 +6,8 @@ FIAP - Desenvolvimento Cross Platform - 3SIS
 Projeto desenvolvido em Flutter que oferece a funcionalidade de pesquisa de repositórios no GitHub. Além disso, o aplicativo disponibiliza ao usuário a possibilidade de visualizar informações relevantes sobre o repositório selecionado, agregando ainda mais valor à experiência do usuário.
 
 ### Desenvolvimento Cross Platform
-  - [ ] Arquitetura e Configuração do Projeto
-  - [ ] Componentes e Telas
+  - [x] Arquitetura e Configuração do Projeto
+  - [x] Componentes e Telas
   - [ ] Gestão de Estado - Bloc
   - [ ] Injeção de Dependência - GetIt
   - [ ] Navegação - GoRouter
